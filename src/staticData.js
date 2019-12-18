@@ -28,6 +28,11 @@ const reasonsList = [
     key: "4",
     text: "Opinia o potrzebie wczesnego wspomagania rozwoju dziecka",
     value: "OPINIA"
+  },
+  {
+    key: "5",
+    text: "Zajęcia rewalidacyjno - wychowawcze",
+    value: "REWALIDACYJNO WYCHOWAWCZE"
   }
 ];
 
@@ -109,4 +114,22 @@ const disabilityList = [
   }
 ];
 
-export { reasonsList, disabilityList };
+const classList = [
+  {
+    key: "x",
+    text: "Wybierz rodzaj zajęć...",
+    value: ""
+  },
+  {
+    key: "y",
+    text: "Indywidualne",
+    value: "INDYWIDUALNE"
+  },
+  {
+    key: "z",
+    text: "Zespołowe",
+    value: "ZESPOLOWE"
+  }
+];
+
+export { reasonsList, disabilityList, classList };

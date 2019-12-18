@@ -23,7 +23,8 @@ const fieldLabels = {
     issue: "wniosek o",
     period: "Na okres czasu",
     reason: "Z uwagi na",
-    secondReason: "Dodatkowa niepełnosprawność"
+    secondReason: "Dodatkowa niepełnosprawność",
+    class: "Rodzaj zajęć"
   },
   supportCenter: {
     instituteName: "Nazwa instytucji",
